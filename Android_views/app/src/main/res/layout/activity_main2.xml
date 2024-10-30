@@ -16,15 +16,43 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nazwa użytkownika"
+            android:text="Imię"
             android:layout_columnSpan="1"/>
 
         <EditText
             android:id="@+id/username"
-            android:layout_width="150dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_columnSpan="1"
-            android:inputType="text" />
+            android:inputType="text"
+            android:hint="Wprowadź imie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nazwisko"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/usersurname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="text"
+            android:hint="Wprowadź nazwisko" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="text"
+            android:hint="Wprowadź email"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,17 +61,32 @@
             android:layout_columnSpan="1"/>
 
         <EditText
-            android:id="@+id/password"
-            android:layout_width="150dp"
+            android:id="@+id/password2"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_columnSpan="1"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:hint="Wprowadź hasło"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powtórz hasło"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="textPassword"
+            android:hint="Wprowadż ponownie hasło"/>
 
         <Button
             android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Zaloguj się"
+            android:text="Zarejestruj się"
             android:layout_rowSpan="1"
             android:layout_columnSpan="2"/>
     </GridLayout>
