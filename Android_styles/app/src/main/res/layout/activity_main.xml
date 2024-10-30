@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    style="@style/AppTheme">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true"
+
+        >
+
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/username"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="text"
+            android:hint="Wprowadź email"/>
+
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasło"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="textPassword"
+            android:hint="Wprowadź hasło"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zaloguj się"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="2"/>
+
+        <RatingBar
+            style="@style/StarStyle"
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_columnSpan="2"/>
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

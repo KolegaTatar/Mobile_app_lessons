@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true"
+        style="@style/AppTheme">
+
+
+
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imię"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/username"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="text"
+            android:hint="Wprowadź imie" />
+
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nazwisko"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/usersurname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="text"
+            android:hint="Wprowadź nazwisko" />
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/useremail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="text"
+            android:hint="Wprowadź email"/>
+
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasło"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/password2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="textPassword"
+            android:hint="Wprowadź hasło"/>
+
+        <TextView
+            style="@style/LabelTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powtórz hasło"
+            android:layout_columnSpan="1"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:inputType="textPassword"
+            android:hint="Wprowadż ponownie hasło"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zarejestruj się"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="2"/>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
