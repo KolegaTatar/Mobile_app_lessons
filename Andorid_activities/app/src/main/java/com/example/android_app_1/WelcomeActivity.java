@@ -12,27 +12,29 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private TextView welcomeText;
     private Button logoutButton;
+    private  TextView text_view_welcom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome); // Layout dla WelcomeActivity
+        setContentView(R.layout.activity_welcome);
 
         welcomeText = findViewById(R.id.welcomeTextLarge);
         logoutButton = findViewById(R.id.button);
+        text_view_welcom = findViewById(R.id.welcomeTextSmall);
 
-        // Odbierz dane z MainActivity (e-mail użytkownika)
         String email = getIntent().getStringExtra("email");
         welcomeText.setText("Witaj w aplikacji! Zalogowano jako " + email);
+        text_view_welcom.setText("Zalogowano jako "+email);
 
-        // Nasłuchiwanie na kliknięcie przycisku "Wyloguj"
+
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Powrót do MainActivity
+
                 Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
                 startActivity(intent);
-                finish(); // Zakończ działalność WelcomeActivity
+                finish();
             }
         });
     }
