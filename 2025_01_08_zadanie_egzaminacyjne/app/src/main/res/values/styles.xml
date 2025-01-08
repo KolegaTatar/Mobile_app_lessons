@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="header">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/seaGreen_header</item>
+        <item name="android:textSize">28dp</item>
+    </style>
+    <style name="main">
+        <item name="android:background">@color/lighGreen_main</item>
+    </style>
+</resources>
