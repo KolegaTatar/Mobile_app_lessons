@@ -13,7 +13,7 @@
 | 06.11.2024   | Andorid_App_themes |
 | 13.11.2024   | EasyAppAndroid |
 | 20.11.2024   | Android_app_matura |
-| 27.11.2024   |  |
-| 11.12.2024   |  |
+| 27.11.2024   | Andorid_activities |
+| 11.12.2024   | Android_fragments |
 | 08.01.2025   | 2025_01_08_zadanie_egzaminacyjne  |
 
