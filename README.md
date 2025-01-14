@@ -10,8 +10,8 @@
 | 16.10.2024   | Android_form     |
 | 23.10.2024   | Android_views     |
 | 30.10.2024   | Android_styles     |
-| 06.11.2024   | EasyAppAndroid |
-| 13.11.2024   |  |
+| 06.11.2024   | Andorid_App_themes |
+| 13.11.2024   | EasyAppAndroid |
 | 20.11.2024   | Android_app_matura |
 | 27.11.2024   |  |
 | 11.12.2024   |  |
