@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">2025_01_08_zadanie_egzaminacyjne</string>
+    <string-array name="species_array">
+        <item>Pies</item>
+        <item>Kot</item>
+        <item>Świnka morska</item>
+    </string-array>
 </resources>
+
