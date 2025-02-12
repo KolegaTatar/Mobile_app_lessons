@@ -17,4 +17,5 @@
 | 11.12.2024   | Android_fragments |
 | 08.01.2025   | 2025_01_08_zadanie_egzaminacyjne  |
 | 05.02.2025   | 2025_02_05_threeactivities  |
+| 12.02.2025   | 2025_02_12_activity2  |
 
