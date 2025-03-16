@@ -10,12 +10,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
-    plugins {
-        id("com.android.application") version "8.0.0"
-        id("org.jetbrains.kotlin.android") version "1.9.0" // Przeniesione tutaj
-    }
 }
-
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -24,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "2025_01_08_zadanie_egzaminacyjne"
+rootProject.name = "2025_03_05_photosInHorizontalScrollView"
 include(":app")
+ 
