@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "2025_03_05_photosInHorizontalScrollView"
 include(":app")
- 
