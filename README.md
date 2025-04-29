@@ -19,5 +19,5 @@
 | 05.02.2025   | 2025_02_05_threeactivities  |
 | 12.02.2025   | 2025_02_12_activity2  |
 | 05.03.2025   | 2025_03_05_photosInHorizontalScrollView |
-
+| 23.04.2025   | Zadanie podsumowujace Android |
 

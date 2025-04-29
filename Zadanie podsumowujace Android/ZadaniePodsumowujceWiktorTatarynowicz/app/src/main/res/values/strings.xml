@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Zadanie Podsumowujące Wiktor Tatarynowicz</string>
+    <string name="login_header">Logowanie</string>
+    <string name="email">Adres e-mail</string>
+    <string name="password">Hasło</string>
+    <string name="login">Zaloguj się</string>
+    <string name="fragments_play">Zabawa fragmentami</string>
+    <string name="change_fragment_button">Zmień fragment</string>
+    <string name="show_notification_button">Pokaż powiadomienie</string>
+    <string name="display_list">Wyświetlanie listy</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="android_1">Android 1</string>
+    <string name="android_2">Android 2</string>
+    <string name="android_3">Android 3</string>
+    <string name="android_4">Android 4</string>
+    <string name="open_dialog">Otwórz okno dialogowe</string>
+
+    <string name="ic_notification">Ikona powiadomienia</string>
+</resources>
