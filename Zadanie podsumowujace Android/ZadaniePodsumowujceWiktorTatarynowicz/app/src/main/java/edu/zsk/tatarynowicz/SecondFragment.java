@@ -13,7 +13,7 @@ public class SecondFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_second, container, false);
 
-        Button dialogButton = view.findViewById(R.id.open_dialog);
+        Button dialogButton = view.findViewById(R.id.dialogFragmentOpenButton);
         dialogButton.setOnClickListener(v -> {
             ((LoggedInActivity) requireActivity()).openDialog();
         });
