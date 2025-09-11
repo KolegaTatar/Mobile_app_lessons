@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">2025_09_10</string>
+    <string name="app_name">Home</string>
+    <string name="title">Gra w kości. Autor Wiktor Tatarynowic</string>
+    <string name="btn_roll">RZUĆ KOŚĆMI</string>
+    <string name="btn_reset">RESETUJ WYNIK</string>
+    <string name="label_last_roll">Wynik tego losowania:</string>
+    <string name="label_total">Wynik gry:</string>
 </resources>

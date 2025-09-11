@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "edu.zsk.a2025_09_10"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "edu.zsk.a2025_09_10"
