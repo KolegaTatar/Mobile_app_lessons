@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Home</string>
-    <string name="title">Gra w kości. Autor Wiktor Tatarynowic</string>
+    <string name="app_name">Kosci</string>
+    <string name="title">Gra w kości. Autor Wiktor Tatarynowicz</string>
     <string name="btn_roll">RZUĆ KOŚĆMI</string>
     <string name="btn_reset">RESETUJ WYNIK</string>
     <string name="label_last_roll">Wynik tego losowania:</string>
