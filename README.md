@@ -27,3 +27,4 @@
 | Data zadania | Nazwa (folder)               |
 |--------------|------------------------------|
 | 10.09.2025   | 2025_09_10_egzamin_gra_kosci |
+| 24.09.2025   | 2025_09_24_egzamin_urzadzenia_domowe |

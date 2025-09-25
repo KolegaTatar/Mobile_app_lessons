@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2025_09_24_egzamin_urzadzenia_domowe</string>
+    <string name="main_label">Urządzenia Domowe</string>
+    <string name="author">Autor: Wiktor Tatarynowicz</string>
+    <string name="device_1">Pralka</string>
+    <string name="btn_device_1">Zatwierdź</string>
+    <string name="device_2">Odkurzacz</string>
+    <string name="btn_device_2">Włącz</string>
+    <string name="device_2_on">Odkurzacz wyłączony”</string>
+
+</resources>
