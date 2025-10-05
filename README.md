@@ -28,3 +28,4 @@
 |--------------|------------------------------|
 | 10.09.2025   | 2025_09_10_egzamin_gra_kosci |
 | 24.09.2025   | 2025_09_24_egzamin_urzadzenia_domowe |
+| 01.10.2025   | 2025_10_01_egzamin_ustawienia_czcionki |

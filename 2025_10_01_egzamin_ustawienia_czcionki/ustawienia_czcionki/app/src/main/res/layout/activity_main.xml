@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wlasciwosci_czcionki"
+        android:id="@+id/wlasciwosci_czcionki"
+        android:background="@color/uzyty_kolor"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tresc_rozmiaru"
+        android:id="@+id/tresc_rozmiaru"
+        android:backgroundTint="@color/black"
+        android:textSize="18sp">
+    </TextView>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seakbar"
+        android:backgroundTint="@color/black"
+        android:min="0"
+        android:max="40">
+    </SeekBar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:id="@+id/napis">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:backgroundTint="@color/uzyty_kolor"
+            android:textStyle="bold"
+            android:id="@+id/nastepny"
+            android:text="@string/tresc_przycisku">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+
