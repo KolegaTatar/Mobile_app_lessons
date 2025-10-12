@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">notatki_tekstowe</string>
+    <string name="tekst_podpowiedzi">Nowy element</string>
+    <string name="przycisk_tresc">DODAJ</string>
+</resources>
