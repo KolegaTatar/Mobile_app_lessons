@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">egzamin</string>
+    <string name="tytul_apki">Domek w górach</string>
+    <string name="przycisk_1">POLUB</string>
+    <string name="przycisk_2">USUŃ</string>
+    <string name="przycisk_3">ZAPISZ</string>
+    <string name="opis_tytul">opis</string>
+    <string name="opis_tresc">Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</string>
+</resources>
