@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">U_weterynarza</string>
+    <string-array name="species_array">
+        <item>Pies</item>
+        <item>Kot</item>
+        <item>Świnka morska</item>
+    </string-array>
+</resources>
+

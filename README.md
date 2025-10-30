@@ -31,4 +31,6 @@
 | 01.10.2025   | 2025_10_01_egzamin_ustawienia_czcionki |
 | 08.10.2025   | 2025_10_08_egzamin_notatki |
 | 15.10.2025   | 2025_10_15_domek_w_gorach |
+| 22.10.2025   | 2025_10_22_egzamin_wizyta_u_weta |
+| 29.10.2025   | 2025_10_29_egzamin_aplikacja_szyfrujaca(desktop) |
 
