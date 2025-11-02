@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="glowny_motyw">#5F9EA0</color>
+    <color name="kolor_czcionki_1">#FAEBD7</color>
+    <color name="kolor_ramki">#FAEBD7</color>
+    <color name="kolor_czcionki_2">#F0F8FF</color>
+    <color name="kolor_przycisku">#ADD8E6</color>
+</resources>

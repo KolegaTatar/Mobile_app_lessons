@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">apka_szyfrujaca</string>
+    <string name="tekst1">Podaj wartość klucza</string>
+    <string name="tekst2">Podaj tekst</string>
+    <string name="tekst3">Tekst zaszyfrowany</string>
+    <string name="tytul_okna">Szyfrowanie. Wykonane przez: Wiktor Tatarynowicz</string>
+</resources>
