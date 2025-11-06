@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RGB_app</string>
+    <string name="tytul_okna">Wzornik kolorów RGB. Wykonał: Wiktor Tatarynowicz</string>
+    <string name="napis1">Dobierz kolor suwakami i zapisz przyciskiem:</string>
+    <string name="tresc_przycisku">Pobierz</string>
+
+</resources>

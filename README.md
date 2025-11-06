@@ -33,4 +33,5 @@
 | 15.10.2025   | 2025_10_15_domek_w_gorach |
 | 22.10.2025   | 2025_10_22_egzamin_wizyta_u_weta |
 | 29.10.2025   | 2025_10_29_egzamin_aplikacja_szyfrujaca(desktop) |
+| 05.11.2025   | 2025_11_05_egzamin_RGB(desktop) |
 
