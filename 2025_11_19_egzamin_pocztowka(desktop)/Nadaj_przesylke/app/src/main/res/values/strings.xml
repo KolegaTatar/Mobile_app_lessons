@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Nadaj_przesylke</string>
+    <string name="app_name">Nadaj Przesylkę, PESEL: 000000000000</string>
+    <string name="rodzaj_przesylki">Rodzaj przesyłki</string>
+    <string name="pocztowka">Pocztówka</string>
+    <string name="list">List</string>
+    <string name="paczka">Paczka</string>
+    <string name="btn_cena">Sprawdź Cenę</string>
+    <string name="btn_zatwierdz">Zatwierdź</string>
+    <string name="dane_adresowe">Dane adresowe</string>
+    <string name="ulica_nr">Ulica z numerem</string>
+    <string name="Kod_pocz">Kod pocztowy</string>
+    <string name="Miasto">Miasto</string>
 </resources>
