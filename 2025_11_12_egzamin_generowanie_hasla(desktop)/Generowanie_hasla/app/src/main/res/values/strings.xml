@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dodaj pracownika. 0000000000</string>
+    <string name="tytul_dane_pracownika">Dane pracownika</string>
+    <string name="imie">Imie</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="stanowisko">Stanowisko</string>
+    <string name="gen_hasla_tekst">Generowanie hasła</string>
+    <string name="ile_znak">Ile znaków?</string>
+    <string name="male_wielkie_litery">Małe i wielkie litery</string>
+    <string name="cyfry">Cyfyr</string>
+    <string name="znaki_specjalne">Znaki specjalne</string>
+    <string name="btn_gen_haslo">Generuj hasło</string>
+    <string name="btn_text">Zatwierdź</string>
+</resources>
